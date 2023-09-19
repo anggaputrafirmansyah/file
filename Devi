@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<script language="javascript">
+	alert('siap siap yaaaa');
+	alert('DEAR, DEVI');
+</script>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link href="https://feeldreams.github.io/withyou/style.css" rel="stylesheet" type="text/css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>INI BUAT DEVI</title>
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://raw.githubusercontent.com/anggaputrafirmansyah/file/main/akad.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://raw.githubusercontent.com/anggaputrafirmansyah/file/main/GridArt_20230918_222946111.jpg" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="kadoIn">
+       <!-- Tombol Surat --><img src="https://feeldreams.github.io/kadoin.png"/>
+     </div>
+     <p id="ket">Klik jika udah siap aja ya!!</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://raw.githubusercontent.com/anggaputrafirmansyah/file/main/ezgif.com-gif-maker.gif" id="fotostiker"/>
+         <img src="https://feeldreams.github.io/peach11.gif" id="fotostiker2"/>
+         <img src="https://feeldreams.github.io/peachhug.gif" id="fotostiker3"/>
+     </div>
+     <p id="halo" class="halo">DEAR, DEVI!</p>
+     <!-- Konten Pesan Setelah Aksi -->
+     <p id="halo2" class="halo sty2">INI SEMUA UNTUK DEVI!</p>
+     <p id="halo3" class="halo sty3">Sulit untuk menemukan kata-kata yang cukup kuat untuk mengungkapkan rasa terima kasihku kepada Devi,<br> atas semua momen indah yang Devi berikan selama aku di Malang. Hari- Hari itu benar-benar luar biasa, <br>dan aku sangat bahagia telah memiliki kesempatan untuk menghabiskan waktu bersamamu.
+      <br><br> Aku melihat Devi tersenyum, dan itu adalah pemandangan yang luar biasa. <br>Devi begitu cantik pada hari itu, dan aku tak bisa berhenti memandangimu.<br> Rasanya seperti waktu berhenti sejenak untuk mengizinkan <br>kita menikmati keindahan itu bersama-sama.
+      <br><br> Aku merasakan kebahagiaan yang luar biasa setiap Bersamamu.<br>Banyak hal pertama kaliku yang kulakukan bersamamu, seperti merasa hangat ketika berada dalam genggamanmu<br> Aku tidak pernah merasa sebahagia ini sebelumnya, dan aku sangat bersyukur untuk momen-momen itu.<br> Aku Sangat ingin menghentikan waktu, melupakan semua beban kekhawatiran dan <br>hanya hidup di dalam momen itu.
+      <br><br> Devi.... perjalanan ini akan selalu menjadi kenangan yang berharga bagiku. <br>Terima kasih telah mengisi hidupku dengan kebahagiaan dan kenangan indah. <br>Aku ingin kita terus menjaga kenangan ini, bahkan saat kita menjalani bagian berikutnya <br>dari perjalanan hidup ini.
+      <br><br> Terima kasih, Devi.... atas semua yang kamu lakukan. Kamu adalah bagian <br>penting dari kenangan indah ini, dan aku berharap kita akan terus <br>melukis cerita indah bersama-sama.<3</p>
+     <!-- Tanggal Otomatis Sesuai Hari Ini --><p id="tanggal" class="halo sty3"></p>
+     
+     <!-- Konten Pesan Akhir -->
+     <p id="kalimatbawah">DEVINDA PERTIWI WULANDARI </p> 
+     <p id="kalimatbawah2" class="sembunyi">THANKS YAAAA </p> 
+     <p id="kalimatbawah3" class="sembunyi">FOR EVERYTHING 🫶🏻 </p>
+       
+     <div><blockquote id='bq' data-text='&#9829;'>
+
+       <!-- Konten Pembukaan -->
+       <p id="kalimat">Aku Pengen Bilang Sesuatu Buat Devi</p>
+       <p id="kalimatb">Sebelumnya, Makasih yaa udah mau ketemu aku🤭</p>
+       <p id="kalimatc">Makasii Udah Nemenin Aku Selama ini🥺</p>
+       <p id="kalimatd">Meskipun Capek Jagain Bocil,</p>
+       <p id="kalimate">eh... maksudnya Aku Bahagia dan Seneng 😍</p>
+       <p id="kalimatf">Klik logo di Samping Kiri Atas ya!</p>
+       <p id="opsL">Klik untuk Lanjut</p>
+       
+     </blockquote></div>
+
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol"><a id="By">&#128140; klik disini kalau udah selesai yaa [kirim ke aku!!!]</a></div>
+
+     <!-- Pesan yang dikirim ke WhatsApp -->
+     <span id="pesanWA" class="sembunyi">Angga, Ayo Ketemmu Lagiiii Aku Kangen wkwkwk</span>    
+   </div>
+
+<script>
+  const body = document.querySelector("body"); const style = document.createElement('style'); var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy; inikuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;ftfungsi=0;fungsiAwal=0;fungsitimer=0;vketikhalo=halo.innerHTML;halo.innerHTML = "";vketikhalo2=halo2.innerHTML;halo2.innerHTML = "";pesanwhatsapp = pesanWA.innerHTML;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh;";
+  audio = new Audio('' + linkmp3.src);tanggal.innerHTML="- " + today + " -"; function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+</script>
+<script src="https://feeldreams.github.io/withyou/script.js"></script>
+</body>
+</html>
